@@ -1,3 +1,4 @@
+# Add additional days here after creating their respective directories
 set(DAYS
   day01
 )

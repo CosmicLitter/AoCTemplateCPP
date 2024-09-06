@@ -4,12 +4,16 @@
 #include <memory>
 #include <string>
 #include <vector>
+
+// Include day solution headers
 #include "../days/day01/day01.h"
+
 
 int main(int argc, char* argv[]) {
   std::vector<std::unique_ptr<Solution>> solutions;
   solutions.push_back(std::make_unique<Day01>());
-  // Add other days here and include their header
+  // Add other days to the vector and include their header
+  // ...
 
   auto total_start = std::chrono::high_resolution_clock::now();
 
